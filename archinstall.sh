@@ -55,7 +55,7 @@ bin zu faul da was einzuprogrammieren.
 read _
 
 # ------PARTITIONING------
-: '
+#: '
 DISK="/dev/sda"
 
 echo "GPT Partition wird erstellt..."
@@ -85,5 +85,4 @@ sleep 2
 echo "Derzeitige DISK:"
 gdisk -l "$DISK"
 echo "DISK Partitioniert."
-""""
-'
+#'
